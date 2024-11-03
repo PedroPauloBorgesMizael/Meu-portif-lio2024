@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Prompt:wght@400;500&display=swap');
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ccc0b4;
+}
+
+.fotos__banner {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin-left: 3.5em;
+    gap: 1.5em;
+}
+
+.texto__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 7em 2em 0;
+}
+
+.texto__banner h1 {
+    font-family: "Newsreader", serif;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: start;
+}
+
+.texto__banner p {
+    text-align: start;
+    line-height: 1.5em;
+}
