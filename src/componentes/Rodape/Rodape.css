@@ -1,0 +1,39 @@
+.container__rodape {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ccc0b4;
+    align-items: center;
+    padding: 1em;
+}
+
+.container__rodape .rodape__referencias {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+}
+
+.container__rodape .rodape__referencias p {
+    opacity: 0.7;
+}
+
+.container__rodape .rodape__referencias p a {
+    color: #000;
+    font-weight: 500;
+}
+
+.container__rodape .rodape__redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container__rodape .rodape__redes div {
+    display: flex;
+    gap: 15px;
+}
+
+.container__rodape .rodape__redes .imagens {
+    width: 32px;
+}

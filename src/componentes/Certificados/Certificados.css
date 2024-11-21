@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__certificado {
+    width: 22%;
+}
+
+.container__certificado .cabecalho {
+    background-color:  #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+.container__certificado img {
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -50px;
+}
+
+.container__certificado .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding: 90px 10px 30px 10px;
+}
+
+.container__certificado .rodape h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 16px;
+}
+
+.container__certificado .rodape .progress__container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 5px 0 rgb(204 185 185 / .75);
+}
+
+.container__certificado .rodape .progress__container span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #308046 50%, #45ad62 100%);
+    transition: width .5s linear;
+} 
